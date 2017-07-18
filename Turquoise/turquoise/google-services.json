@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "735100719406",
+    "firebase_url": "https://society-focus-gatekeeper.firebaseio.com",
+    "project_id": "society-focus-gatekeeper",
+    "storage_bucket": "society-focus-gatekeeper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735100719406:android:7f2e4e459a78c6cd",
+        "android_client_info": {
+          "package_name": "com.android.turquoise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735100719406-lkjp5sldb0cgs54ffg2ebfsf4d4clcvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk8yUiIERB84sl_jqNCruHb8QC_zVIMo8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
