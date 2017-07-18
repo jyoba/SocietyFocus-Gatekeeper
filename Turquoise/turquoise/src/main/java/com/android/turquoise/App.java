@@ -4,9 +4,12 @@ import android.app.Application;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.RuntimeExecutionException;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
+import io.fabric.sdk.android.Fabric;
 
 /**
  * Created by jikoobaruah on 07/04/17.
@@ -21,8 +24,10 @@ public class App extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        Fabric.with(this, new Crashlytics());
         appInstance = this;
         setupFireBaseRemoteConfig();
+
     }
 
     private void setupFireBaseRemoteConfig() {
